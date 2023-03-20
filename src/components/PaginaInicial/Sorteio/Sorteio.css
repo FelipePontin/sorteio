@@ -1,0 +1,66 @@
+.sorteio_numeros {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 25rem;
+    height: 17.5rem;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    background: #171E25;
+}
+
+.divisao_icone_sorteio_numeros {
+    display: flex;
+    align-items: center;
+}
+
+.titulo_sorteio_numeros {
+    font-weight: 400;
+    font-size: 1.35rem;
+    color: #CCDAE7;
+}
+
+.icone_sorteio_numeros {
+    cursor: pointer;
+    margin: 0 0 0 .5rem;
+    font-size: 1.15rem;
+    color: #CCDAE7;
+}
+
+.divisao_numeros_sorteio_numeros {
+    display: flex;
+}
+
+.divisao_numero_sorteio_numeros {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem .55rem 1rem 0;
+    border-radius: .45rem;
+    color: #FFFFFF;
+    background: #273038;
+}
+
+.numero_sorteio_numeros {
+    font-size: 1.15rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divisao_numero_sorteio_numeros {
+    width: 100%;    
+}
+
+.botao_sorteio_numeros {
+    border-radius: 5rem;
+    margin: 1rem auto 0 auto;
+    cursor: pointer;
+    padding: .75rem 3.5rem;
+    border: none;
+    color: #FFFFFF;
+    background: #0052CC;
+    font-family: 'Mitr', sans-serif;
+}

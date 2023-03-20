@@ -5,6 +5,7 @@ import ImagemSorteioNumero from '../src/images/sorteio_numero.svg'
 import ImagemSorteioNome from '../src/images/sorteio_nome.svg'
 import ImagemSorteioRegistrado from '../src/images/sorteio_registrado.svg'
 import Logo from '../src/images/logo.svg'
+import Sorteio from '../src/components/PaginaInicial/Sorteio/Sorteio'
 import './SorteNorte.css';
 
 const SorteNorte = () => {
@@ -36,7 +37,7 @@ const SorteNorte = () => {
           <p className='subtitulo_sorteio_numero'>Sorteio de números que permite que o organizador escolha uma quantidade entre um intervalo de números para sortear!</p>
         </div>
         <div className='divisao_sorteio_numero_imagem'>
-          <img className='imagem_sorteio_numero' src={ImagemSorteioNumero}></img>
+          <Sorteio />
         </div>
       </section>
       <section className='sorteio_nome'>
