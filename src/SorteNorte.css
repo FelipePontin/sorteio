@@ -17,12 +17,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 0 3rem 0;
   padding: 1rem;
 }
 
-.logo {
+.divisao_logo {
+  display: flex;
+  align-items: center;
+}
+
+.imagem_logo {
+  width: 2.5rem;
+}
+
+.texto_logo {
   font-weight: bold;
   font-size: 1.5rem;
+  margin: .25rem 0 0 .5rem;
   color: #FFFFFF;
 }
 
@@ -42,7 +53,6 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
-  margin: 3rem 0 0 0;
   text-align: center;
 }
 
@@ -51,6 +61,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: 0 0 5rem 0;
 }
 
 .texto_introducao {
@@ -119,5 +130,130 @@ body {
 }
 
 .sorteio_numero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4.5rem 0;
   background: #0B0F15;
+}
+
+.divisao_sorteio_numero {
+  margin: 0 2.5rem 0 0;
+}
+
+.imagem_sorteio_numero {
+  width: 25rem;
+}
+
+.titulo_sorteio_numero {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.subtitulo_sorteio_numero {
+  width: 25rem;
+  font-size: .95rem;
+  color: #CCDAE7;
+}
+
+.sorteio_nome {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4.5rem 0;
+}
+
+.divisao_sorteio_nome {
+  margin: 0 0 0 2.5rem;
+}
+
+.imagem_sorteio_nome {
+  width: 25rem;
+}
+
+.titulo_sorteio_nome {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.subtitulo_sorteio_nome {
+  width: 25rem;
+  font-size: .95rem;
+  color: #CCDAE7;
+}
+
+.sorteio_registrado {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4.5rem 0;
+  background: #0B0F15;
+}
+
+.divisao_sorteio_registrado {
+  margin: 0 2.5rem 0 0;
+}
+
+.imagem_sorteio_registrado {
+  width: 25rem;
+}
+
+.titulo_sorteio_registrado {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.subtitulo_sorteio_registrado {
+  width: 25rem;
+  font-size: .95rem;
+  color: #CCDAE7;
+}
+
+.bora_comecar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6.5rem 0;
+  background-image: url('./images/efeito.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40rem;
+}
+
+.titulo_bora_comecar {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.botao_bora_comecar {
+  border-radius: 5rem;
+  margin: 1rem .5rem 0 .5rem;
+  cursor: pointer;
+  padding: .55rem 1.75rem;
+  border: none;
+  color: #FFFFFF;
+  background: #0052CC;
+  font-family: 'Mitr', sans-serif;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.25rem 0;
+  background: #171E25;
+}
+
+.texto_logo_rodape {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.copy_rodape {
+  margin: .5rem 0;
+  font-size: .95rem;
+  color: #CCDAE7;
 }
