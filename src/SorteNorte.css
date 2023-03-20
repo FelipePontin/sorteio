@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Mitr', sans-serif;
+  background: #0D1117;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.botao_cabecalho {
+  border-radius: .25rem;
+  margin: 0 .5rem;
+  cursor: pointer;
+  padding: .45rem 1.25rem;
+  border: none;
+  color: #FFFFFF;
+  background: #0052CC;
+  font-family: 'Mitr', sans-serif;
+}
+
+.introducao {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin: 3rem 0 0 0;
+  text-align: center;
+}
+
+.divisao_introducao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto_introducao {
+  letter-spacing: .25rem;
+  font-size: .8rem;
+  color: #079DE0;
+}
+
+.titulo_introducao {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.subtitulo_introducao {
+  width: 35rem;
+  margin: .5rem 0;
+  font-size: .95rem;
+  color: #CCDAE7;
+}
+
+.botao_introducao {
+  border-radius: 5rem;
+  margin: 1rem .5rem 0 .5rem;
+  cursor: pointer;
+  padding: .55rem 1.75rem;
+  border: none;
+  color: #FFFFFF;
+  background: #0052CC;
+  font-family: 'Mitr', sans-serif;
+}
+
+.divisao_presente {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.imagem_introducao {
+  width: 8.5rem;
+}
+
+.divisao_efeito {
+  position: absolute;
+}
+
+.divisao_efeito_topo {
+  top: 3%;
+  left: 20%;
+}
+
+.efeito_introducao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 1.5rem;        
+  background: #0052CC;
+  border-radius: 50%;
+  filter: blur(30px);
+  z-index: 65;
+}
+
+.icone_introducao {
+  color: #0052CC;
+  font-size: 1.5rem;
+}
+
+.sorteio_numero {
+  background: #0B0F15;
+}
