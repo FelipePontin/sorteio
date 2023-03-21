@@ -1,19 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
 import ImagemPresente from '../src/images/presente.svg'
 import ImagemPresenteAberto from '../src/images/presente_aberto.svg'
 import ImagemSorteioNumero from '../src/images/sorteio_numero.svg'
 import ImagemSorteioNome from '../src/images/sorteio_nome.svg'
 import ImagemSorteioRegistrado from '../src/images/sorteio_registrado.svg'
 import Logo from '../src/images/logo.svg'
+import PresenteLogo from '../src/images/presente_logo.svg'
 import Sorteio from '../src/components/PaginaInicial/Sorteio/Sorteio'
-import './SorteNorte.css';
+import './SorteNorte.css'
 
 const SorteNorte = () => {
   return (
     <section className='sorte_norte'>
       <header className='cabecalho'>
         <div className='divisao_logo'>
-          <img className='imagem_logo' src={Logo}></img>
+          <img className='imagem_logo' src={PresenteLogo}></img>
           <div className='texto_logo'>SORTE NORTE</div>
         </div>
         <div className='divisao_cabecalho'>

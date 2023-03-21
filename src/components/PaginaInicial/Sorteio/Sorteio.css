@@ -41,6 +41,10 @@
     background: #273038;
 }
 
+.divisao_continuar_numero_sorteio_numeros {
+    margin: 0 0.55rem 0 0;
+}
+
 .numero_sorteio_numeros {
     font-size: 1.15rem;
     position: absolute;
@@ -58,4 +62,22 @@
     color: #FFFFFF;
     background: #0052CC;
     font-family: 'Mitr', sans-serif;
+}
+
+.titulo_continuar_sorteio_numeros {
+    text-align: center;
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.subtitulo_continuar_sorteio_numeros {
+    text-align: center;
+    font-size: .95rem;
+    color: #CCDAE7;
+    margin: .5rem 0;
+}
+
+.titulo_continuar_sorteio_numeros {
+    margin: 0 .5rem 0 0;
 }
