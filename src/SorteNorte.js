@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+
 import ImagemPresente from '../src/images/presente.svg'
 import ImagemPresenteAberto from '../src/images/presente_aberto.svg'
 import ImagemSorteioNumero from '../src/images/sorteio_numero.svg'
@@ -6,7 +7,11 @@ import ImagemSorteioNome from '../src/images/sorteio_nome.svg'
 import ImagemSorteioRegistrado from '../src/images/sorteio_registrado.svg'
 import Logo from '../src/images/logo.svg'
 import PresenteLogo from '../src/images/presente_logo.svg'
-import Sorteio from '../src/components/PaginaInicial/Sorteio/Sorteio'
+
+import SorteioNumero from './components/PaginaInicial/SorteioNumero/SorteioNumero'
+import SorteioNome from './components/PaginaInicial/SorteioNome/SorteioNome'
+import MeusSorteios from './components/PaginaInicial/MeusSorteios/MeusSorteios'
+
 import './SorteNorte.css'
 
 const SorteNorte = () => {
@@ -14,12 +19,11 @@ const SorteNorte = () => {
     <section className='sorte_norte'>
       <header className='cabecalho'>
         <div className='divisao_logo'>
-          <img className='imagem_logo' src={PresenteLogo}></img>
+          <img className='imagem_logo' src={ImagemPresente}></img>
           <div className='texto_logo'>SORTE NORTE</div>
         </div>
         <div className='divisao_cabecalho'>
-          <button className='botao_cabecalho botao_logar'>Logar</button>
-          <button className='botao_cabecalho botão_registrar'>Registrar</button>
+          <button className='botao_cabecalho botao_logar'>Entrar</button>
         </div>
       </header>
       <section className='introducao'>
@@ -38,12 +42,12 @@ const SorteNorte = () => {
           <p className='subtitulo_sorteio_numero'>Sorteio de números que permite que o organizador escolha uma quantidade entre um intervalo de números para sortear!</p>
         </div>
         <div className='divisao_sorteio_numero_imagem'>
-          <Sorteio />
+          <SorteioNumero />
         </div>
       </section>
       <section className='sorteio_nome'>
         <div className='divisao_sorteio_nome_imagem'>
-          <img className='imagem_sorteio_nome' src={ImagemSorteioNome}></img>
+          <SorteioNome />
         </div>
         <div className='divisao_sorteio_nome'>
           <h1 className='titulo_sorteio_nome'>Sorteio de nomes</h1>
@@ -56,7 +60,7 @@ const SorteNorte = () => {
           <p className='subtitulo_sorteio_registrado'>Todos os sorteios que você faz são armazenados no nosso banco de dados, assim você não perde nada!</p>
         </div>
         <div className='divisao_sorteio_registrado_imagem'>
-          <img className='imagem_sorteio_registrado' src={ImagemSorteioRegistrado}></img>
+          <MeusSorteios />
         </div>
       </section>
       <section className='bora_comecar'>

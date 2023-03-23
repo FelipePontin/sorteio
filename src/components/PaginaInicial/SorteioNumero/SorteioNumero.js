@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { TbRefresh } from "react-icons/tb";
-import confetti from 'canvas-confetti'
-import './Sorteio.css'
 
-const Sorteio = () => {
+import { TbRefresh } from "react-icons/tb"
+
+import confetti from 'canvas-confetti'
+
+import './SorteioNumero.css'
+
+const SorteioNumero = () => {
 
     const [numeros, setNumeros] = useState([])
     const [numeroSorteado, setNumeroSorteado] = useState()
@@ -66,4 +69,4 @@ const Sorteio = () => {
     )
 }
 
-export default Sorteio
+export default SorteioNumero
